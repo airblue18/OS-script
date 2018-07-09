@@ -224,7 +224,7 @@ refresh_pattern ^ftp: 1440 20% 10080
 refresh_pattern ^gopher: 1440 0% 1440
 refresh_pattern -i (/cgi-bin/|\?) 0 0% 0
 refresh_pattern . 0 20% 4320
-visible_hostname airblue
+visible_hostname daybreakersx
 END
 sed -i $MYIP2 /etc/squid3/squid.conf;
 service squid3 restart
@@ -553,7 +553,7 @@ echo "--------------------------- Configuration Setup Server -------------------
 echo "                         Copyright HostingTermurah.net                          "
 echo "                        https://www.hostingtermurah.net                         "
 echo "               Created By Steven Indarto(fb.com/stevenindarto2)                 "
-echo "                                Modified by airblue
+echo "                                Modified by airblue                            "
 echo "--------------------------------------------------------------------------------"
 echo ""  | tee -a log-install.txt
 echo "Server Information"  | tee -a log-install.txt
@@ -596,4 +596,4 @@ echo "   - MRTG                    : http://$MYIP:85/mrtg/"  | tee -a log-instal
 echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "----------- Script Created By Steven Indarto(fb.com/stevenindarto2) ------------"
-echo "------------------------------ Modified by airblue -----------------------------"
+echo "------------------------------ Modified by airblue-----------------------------"
