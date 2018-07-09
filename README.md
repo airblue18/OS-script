@@ -1,12 +1,12 @@
-# Premium AutoScript
+# Premium OS-Script
 
-Premium autoscript installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on your VPS. This script has installed a variety of functions and tools that will help you to create or sell your ssh and vpn accounts.
+Premium OS-script installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on your VPS. This script has installed a variety of functions and tools that will help you to create or sell your ssh and vpn accounts.
 
 ### Installation:
 
 - Centos 6 x86 & x64
 
-`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/daybreakersx/premscript/master/req/centos6.sh && chmod +x centos6.sh && ./centos6.sh && rm -f centos6.sh && history -c`
+`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/airblue/OS-script/master/req/centos6.sh && chmod +x centos6.sh && ./centos6.sh && rm -f centos6.sh && history -c`
 
 
 
@@ -18,13 +18,13 @@ Premium autoscript installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on
 
 - Debian 7 x86 & x64
 
-`apt-get -y install wget && wget https://raw.githubusercontent.com/daybreakersx/premscript/master/deb7.sh && chmod +x deb7.sh && ./deb7.sh && rm -f deb7.sh && history -c`
+`apt-get -y install wget && wget https://raw.githubusercontent.com/airblue/OS-script/master/deb7.sh && chmod +x deb7.sh && ./deb7.sh && rm -f deb7.sh && history -c`
 
 
 
 - Debian 8 x86 & x64
 
-`apt-get -y install wget && wget https://raw.githubusercontent.com/daybreakersx/premscript/master/debian8.sh && chmod +x debian8 && ./debian8 && rm -f debian8 && history -c`
+`apt-get -y install wget && wget https://raw.githubusercontent.com/airblue/OS-script/master/debian8.sh && chmod +x debian8 && ./debian8 && rm -f debian8 && history -c`
 
 
 
