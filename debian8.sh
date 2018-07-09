@@ -224,7 +224,7 @@ refresh_pattern ^ftp: 1440 20% 10080
 refresh_pattern ^gopher: 1440 0% 1440
 refresh_pattern -i (/cgi-bin/|\?) 0 0% 0
 refresh_pattern . 0 20% 4320
-visible_hostname daybreakersx
+visible_hostname airblue
 END
 sed -i $MYIP2 /etc/squid3/squid.conf;
 service squid3 restart
@@ -363,7 +363,7 @@ mkdir -p /home/vps/public_html
 cat > /home/vps/public_html/client.ovpn <<-END
 # OpenVPN Configuration by HostingTermurah.net
 # (Official Partner VPS-Murah.net)
-# Modified by 0123456
+# Modified by airblue
 
 client
 dev tun
@@ -553,34 +553,7 @@ echo "--------------------------- Configuration Setup Server -------------------
 echo "                         Copyright HostingTermurah.net                          "
 echo "                        https://www.hostingtermurah.net                         "
 echo "               Created By Steven Indarto(fb.com/stevenindarto2)                 "
-echo "                                Modified by
-                                                                                                              
-                                            bbbbbbbb                                                          
-                    iiii                    b::::::b            lllllll                                       
-                   i::::i                   b::::::b            l:::::l                                       
-                    iiii                    b::::::b            l:::::l                                       
-                                             b:::::b            l:::::l                                       
-  aaaaaaaaaaaaa   iiiiiiirrrrr   rrrrrrrrr   b:::::bbbbbbbbb     l::::l uuuuuu    uuuuuu      eeeeeeeeeeee    
-  a::::::::::::a  i:::::ir::::rrr:::::::::r  b::::::::::::::bb   l::::l u::::u    u::::u    ee::::::::::::ee  
-  aaaaaaaaa:::::a  i::::ir:::::::::::::::::r b::::::::::::::::b  l::::l u::::u    u::::u   e::::::eeeee:::::ee
-           a::::a  i::::irr::::::rrrrr::::::rb:::::bbbbb:::::::b l::::l u::::u    u::::u  e::::::e     e:::::e
-    aaaaaaa:::::a  i::::i r:::::r     r:::::rb:::::b    b::::::b l::::l u::::u    u::::u  e:::::::eeeee::::::e
-  aa::::::::::::a  i::::i r:::::r     rrrrrrrb:::::b     b:::::b l::::l u::::u    u::::u  e:::::::::::::::::e 
- a::::aaaa::::::a  i::::i r:::::r            b:::::b     b:::::b l::::l u::::u    u::::u  e::::::eeeeeeeeeee  
-a::::a    a:::::a  i::::i r:::::r            b:::::b     b:::::b l::::l u:::::uuuu:::::u  e:::::::e           
-a::::a    a:::::a i::::::ir:::::r            b:::::bbbbbb::::::bl::::::lu:::::::::::::::uue::::::::e          
-a:::::aaaa::::::a i::::::ir:::::r            b::::::::::::::::b l::::::l u:::::::::::::::u e::::::::eeeeeeee  
- a::::::::::aa:::ai::::::ir:::::r            b:::::::::::::::b  l::::::l  uu::::::::uu:::u  ee:::::::::::::e  
-  aaaaaaaaaa  aaaaiiiiiiiirrrrrrr            bbbbbbbbbbbbbbbb   llllllll    uuuuuuuu  uuuu    eeeeeeeeeeeeee  
-                                                                                                              
-                                                                                                              
-                                                                                                              
-                                                                                                              
-                                                                                                              
-                                                                                                              
-                                                                                                              
-
-"
+echo "                                Modified by airblue
 echo "--------------------------------------------------------------------------------"
 echo ""  | tee -a log-install.txt
 echo "Server Information"  | tee -a log-install.txt
