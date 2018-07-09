@@ -21,7 +21,7 @@ cat > /root/limit.sh <<END3
 END3
 
 cd /usr/local/bin
-wget -O premium-script.tar.gz "https://raw.githubusercontent.com/airblue/OS-script/master/updates/premium-script.tar.gz"
+wget -O premium-script.tar.gz "https://raw.githubusercontent.com/airblue18/OS-script/master/premium-script.tar.gz"
 tar -xvf premium-script.tar.gz
 rm -f premium-script.tar.gz
 
@@ -74,9 +74,4 @@ screen -AmdS limit /root/limit.sh
 screen -AmdS ban /root/ban.sh
 clear
 cd
-echo " "
-echo " "
 echo "Premium Script Successfully Update!"
-echo "Modified by airblue"
-echo " "
-echo " "
