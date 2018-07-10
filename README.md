@@ -6,25 +6,25 @@ Premium OS-script installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on 
 
 - Centos 6 x86 & x64
 
-`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/airblue/OS-script/master/req/centos6.sh && chmod +x centos6.sh && ./centos6.sh && rm -f centos6.sh && history -c`
+`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/airblue18/OS-script/master/req/centos6.sh && chmod +x centos6.sh && ./centos6.sh && rm -f centos6.sh && history -c`
 
 
 
 - Centos 7 (OVPN not included)
 
-`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/daybreakersx/premscript/master/centos7.sh && chmod +x centos7.sh && ./centos7.sh && rm -f centos7.sh && history -c`
+`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/airblue18/OS-script/master/centos7.sh && chmod +x centos7.sh && ./centos7.sh && rm -f centos7.sh && history -c`
 
 
 
 - Debian 7 x86 & x64
 
-`apt-get -y install wget && wget https://raw.githubusercontent.com/airblue/OS-script/master/deb7.sh && chmod +x deb7.sh && ./deb7.sh && rm -f deb7.sh && history -c`
+`apt-get -y install wget && wget https://raw.githubusercontent.com/airblue18/OS-script/master/deb7.sh && chmod +x deb7.sh && ./deb7.sh && rm -f deb7.sh && history -c`
 
 
 
 - Debian 8 x86 & x64
 
-`apt-get -y install wget && wget https://raw.githubusercontent.com/airblue/OS-script/master/debian8.sh && chmod +x debian8 && ./debian8 && rm -f debian8 && history -c`
+`apt-get -y install wget && wget https://raw.githubusercontent.com/airblue18/OS-script/master/debian8.sh && chmod +x debian8 && ./debian8 && rm -f debian8 && history -c`
 
 
 
