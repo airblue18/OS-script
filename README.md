@@ -24,7 +24,7 @@ Premium OS-script installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on 
 
 - Debian 8 x86 & x64
 ```
-`apt-get -y install wget && wget https://raw.githubusercontent.com/airblue18/OS-script/master/debian8 && chmod +x debian8 && ./debian8 && rm -f debian8 && history -c`
+apt-get -y install wget && wget https://raw.githubusercontent.com/airblue18/OS-script/master/debian8 && chmod +x debian8 && ./debian8 && rm -f debian8 && history -c
 ```
 
 
